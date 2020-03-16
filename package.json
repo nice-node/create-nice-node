@@ -9,7 +9,7 @@
     "dist",
     "template"
   ],
-  "repository": "zhongzhi107/nice-node",
+  "repository": "nice-node/create-nice-node",
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
