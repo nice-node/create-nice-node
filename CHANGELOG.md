@@ -8,6 +8,14 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * eslint ([2281eb6](https://github.com/nice-node/create-nice-node/commit/2281eb6f4245903fc6fc1629c7a666eb7141ed86))
+* ignore package-lock.json ([17e0ee8](https://github.com/nice-node/create-nice-node/commit/17e0ee8072fa488764cce2f609b2b2d16fbeed76))
+
+### 1.0.5 (2020-03-18)
+
+
+### Bug Fixes
+
+* eslint ([2281eb6](https://github.com/nice-node/create-nice-node/commit/2281eb6f4245903fc6fc1629c7a666eb7141ed86))
 
 ### [1.0.4](https://github.com/zhongzhi107/nice-node/compare/v1.0.3...v1.0.4) (2020-03-15)
 
