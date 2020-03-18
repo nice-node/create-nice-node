@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.5 (2020-03-18)
+
+
+### Bug Fixes
+
+* eslint ([2281eb6](https://github.com/nice-node/create-nice-node/commit/2281eb6f4245903fc6fc1629c7a666eb7141ed86))
+
 ### [1.0.4](https://github.com/zhongzhi107/nice-node/compare/v1.0.3...v1.0.4) (2020-03-15)
 
 
