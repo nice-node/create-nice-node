@@ -9,7 +9,7 @@ npm i && npm start
 - 启动本地服务
     ```sh
     # 其他环境使用 PM2 启动服务
-    npm run start
+    npm start
     ```
 - 编译工程
     ```sh
@@ -38,8 +38,7 @@ npm i && npm start
 ├── /.vscode/             # vscode配置
 │   └── /settings.json
 ├── /crontab/             # crontab相关文件存放目录
-│   ├── /crontab.txt        # crontab配置
-│   └── /deleteLogs.sh      # 日志清理脚本
+│   └── /crontab.txt        # crontab配置
 ├── /deploy_scripts/      # portal发布过程需要的脚本
 │   ├── /${appCode}_start   # 启服务脚本
 │   └── /${appCode}_stop    # 停服务脚本
@@ -58,6 +57,7 @@ npm i && npm start
 │   └── /pages/             # 页面文件
 ├── .eslintrc.js          # eslint配置文件
 ├── .npmrc                # npm配置文件，可以改成公司内部源
+├── .syncignore           # 同步到目标服务器需要忽略的文件列表
 ├── ecosystem.config.js   # PM2配置文件
 ├── nodemon-debug.json    # nodemon-debug配置文件
 ├── nodemon.json          # nodemon配置文件
