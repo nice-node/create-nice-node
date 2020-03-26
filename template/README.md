@@ -64,3 +64,6 @@ npm i && npm start
 ├── pom.xml               # maven配置文件，用作前后端工程关联（选择pug后会生成）
 └── tsconfig.json         # typescript配置文件
 ```
+
+## 文档
+https://github.com/nice-node/nice-node/tree/master/docs

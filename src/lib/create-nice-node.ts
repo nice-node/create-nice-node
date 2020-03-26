@@ -28,7 +28,7 @@ function deleteUnusedFiles(opts: any) {
 
 function installWithMessageFactory(opts: any) {
   const {
-    projectName, projectPath, graphql, pug, qconfig
+    projectName, projectPath, graphql, pug, qconfig, mysql, redis
   } = opts;
   const packages = ['nice-node'];
   if (graphql) {
@@ -53,6 +53,17 @@ function installWithMessageFactory(opts: any) {
 
   if (qconfig) {
     packages.push('@qnpm/qconfig-client-plus');
+  }
+
+  if (mysql) {
+    packages.push(
+      '@qnpm/mysql-pxc',
+      'knex'
+    );
+  }
+
+  if (redis) {
+    packages.push('@qnpm/QRedis');
   }
 
   return () => install({
@@ -97,8 +108,8 @@ function create(opts: any) {
       projectPath: opts.projectPath,
       templateFiles: [
         'crontab/crontab.txt',
-        'deploy_scripts/<%=appCode%>_start',
-        'deploy_scripts/<%=appCode%>_stop',
+        'deploy_scripts/<%=appCode%>_start.sh',
+        'deploy_scripts/<%=appCode%>_stop.sh',
         'profiles/beta/nicenode.env',
         'profiles/local/nicenode.env',
         'profiles/prod/nicenode.env',
