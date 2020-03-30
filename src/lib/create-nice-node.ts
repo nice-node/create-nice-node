@@ -47,7 +47,7 @@ function installWithMessageFactory(opts: any) {
   if (pug) {
     packages.push('koa-pug');
   } else {
-    rimraf.sync(path.join(projectPath, 'src/pom.xml'));
+    rimraf.sync(path.join(projectPath, 'pom.xml'));
     rimraf.sync(path.join(projectPath, 'templates'));
   }
 
