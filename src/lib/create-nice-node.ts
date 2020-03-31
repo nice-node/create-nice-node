@@ -21,6 +21,11 @@ function deleteUnusedFiles(opts: any) {
       rimraf.sync(path.join(projectPath, 'src/pom.xml'));
       rimraf.sync(path.join(projectPath, 'templates'));
     }
+
+    fs.renameSync(
+      path.join(projectPath, 'gitignore'),
+      path.join(projectPath, '.gitignore')
+    );
   }, 5000);
 
   return () => Promise.resolve(opts);
