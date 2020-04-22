@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/nice-node/create-nice-node/compare/v1.0.5...v1.0.6) (2020-04-22)
+
+
+### Features
+
+* rename deploy_scripts with .sh ([3e47050](https://github.com/nice-node/create-nice-node/commit/3e470501879ec4899e521560a7211c1ccd77253d))
+* 默认端口改成 3000 ([dab926e](https://github.com/nice-node/create-nice-node/commit/dab926e61a712da2ed591e8d4dd0cb3c3b890f33))
+
+
+### Bug Fixes
+
+* delete unused pom.xml ([ff585b3](https://github.com/nice-node/create-nice-node/commit/ff585b3061438af68dc31b33233fbe1f7e11ebfd))
+* fix gitignore ([5a7c3eb](https://github.com/nice-node/create-nice-node/commit/5a7c3eb050422f845daf76b7af9b1af993a152be))
+* 兼容 profiles.betanoah ([d1d14c1](https://github.com/nice-node/create-nice-node/commit/d1d14c1dfc65b32cb0e4a8388f3dc0c8bb15faad))
+
 ### 1.0.5 (2020-03-18)
 
 
