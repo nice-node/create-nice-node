@@ -116,6 +116,7 @@ function create(opts: any) {
         'deploy_scripts/<%=appCode%>_start.sh',
         'deploy_scripts/<%=appCode%>_stop.sh',
         'profiles/beta/nicenode.env',
+        'profiles/betanoah/nicenode.env',
         'profiles/local/nicenode.env',
         'profiles/prod/nicenode.env',
         'nodemon-debug.json',
