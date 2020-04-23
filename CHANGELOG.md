@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/nice-node/create-nice-node/compare/v1.0.6...v1.0.7) (2020-04-23)
+
+
+### Bug Fixes
+
+* 修复 routes/home.ts 代码错误 ([a630c11](https://github.com/nice-node/create-nice-node/commit/a630c11e689730b4f100188f72f2d5f557c2121e))
+
 ### [1.0.6](https://github.com/nice-node/create-nice-node/compare/v1.0.5...v1.0.6) (2020-04-22)
 
 
