@@ -1,6 +1,6 @@
 {
   "name": "create-nice-node",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Create nice node apps with no build configuration.",
   "engines": {
     "node": ">=8"
